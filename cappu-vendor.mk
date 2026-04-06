@@ -16,7 +16,13 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/cappu/proprietary/etc/mcd_default.conf:system/etc/mcd_default.conf \
+    vendor/xiaomi/cappu/proprietary/etc/dhcpcd/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
+    vendor/xiaomi/cappu/proprietary/etc/init/debuggerd.rc:system/etc/init/debuggerd.rc \
+    vendor/xiaomi/cappu/proprietary/etc/init/debuggerd64.rc:system/etc/init/debuggerd64.rc \
+    vendor/xiaomi/cappu/proprietary/etc/init/mediacodec.rc:system/etc/init/mediacodec.rc \
+    vendor/xiaomi/cappu/proprietary/etc/permissions/com.xiaomi.sensor.xml:system/etc/permissions/com.xiaomi.sensor.xml \
     vendor/xiaomi/cappu/proprietary/etc/trustzone.bin:system/etc/trustzone.bin \
+    vendor/xiaomi/cappu/proprietary/framework/com.xiaomi.sensor.jar:system/framework/com.xiaomi.sensor.jar \
     vendor/xiaomi/cappu/proprietary/etc/firmware/bcm94356wlsagbl_gpio_hwoob.txt:system/etc/firmware/bcm94356wlsagbl_gpio_hwoob.txt \
     vendor/xiaomi/cappu/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/xiaomi/cappu/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
@@ -137,7 +143,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cappu/proprietary/lib/libWnnJpnDic.so:system/lib/libWnnJpnDic.so \
     vendor/xiaomi/cappu/proprietary/lib/libyoga.so:system/lib/libyoga.so \
     vendor/xiaomi/cappu/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
+    vendor/xiaomi/cappu/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
+    vendor/xiaomi/cappu/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
     vendor/xiaomi/cappu/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
+    vendor/xiaomi/cappu/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+    vendor/xiaomi/cappu/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
+    vendor/xiaomi/cappu/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
+    vendor/xiaomi/cappu/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
+    vendor/xiaomi/cappu/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
     vendor/xiaomi/cappu/proprietary/lib64/libadvanced_crypto_jni.so:system/lib64/libadvanced_crypto_jni.so \
     vendor/xiaomi/cappu/proprietary/lib64/libadvanced_crypto.so:system/lib64/libadvanced_crypto.so \
     vendor/xiaomi/cappu/proprietary/lib64/libautocrop.so:system/lib64/libautocrop.so \
@@ -187,6 +200,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cappu/proprietary/lib64/libxl_stat.so:system/lib64/libxl_stat.so \
     vendor/xiaomi/cappu/proprietary/lib64/libxl_thunder_sdk.so:system/lib64/libxl_thunder_sdk.so \
     vendor/xiaomi/cappu/proprietary/lib64/hw/audio_policy.stub.so:system/lib64/hw/audio_policy.stub.so \
+    vendor/xiaomi/cappu/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
+    vendor/xiaomi/cappu/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
+    vendor/xiaomi/cappu/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
+    vendor/xiaomi/cappu/proprietary/lib64/soundfx/libeffectproxy.so:system/lib64/soundfx/libeffectproxy.so \
+    vendor/xiaomi/cappu/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
+    vendor/xiaomi/cappu/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
+    vendor/xiaomi/cappu/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/lib3a.so:system/vendor/lib/lib3a.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/lib3a_sample.so:system/vendor/lib/lib3a_sample.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/libaal.so:system/vendor/lib/libaal.so \
@@ -329,6 +349,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cappu/proprietary/vendor/lib/drm/libdrmctaplugin.so:system/vendor/lib/drm/libdrmctaplugin.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/drm/libdrmmtkplugin.so:system/vendor/lib/drm/libdrmmtkplugin.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/libprotobuf-old-lite.so:system/vendor/lib/libprotobuf-old-lite.so \
+    vendor/xiaomi/cappu/proprietary/vendor/lib/egl/egl.cfg:system/vendor/lib/egl/egl.cfg \
     vendor/xiaomi/cappu/proprietary/vendor/lib/egl/libEGL_mtk.so:system/vendor/lib/egl/libEGL_mtk.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/egl/libGLESv1_CM_mtk.so:system/vendor/lib/egl/libGLESv1_CM_mtk.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/egl/libGLESv2_mtk.so:system/vendor/lib/egl/libGLESv2_mtk.so \
@@ -478,6 +499,3 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/memtrack.mt8173.so:system/vendor/lib64/hw/memtrack.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/sensors.mt8173.so:system/vendor/lib64/hw/sensors.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/vulkan.mt8173.so:system/vendor/lib64/hw/vulkan.mt8173.so
-
-
-
