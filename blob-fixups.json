@@ -1,0 +1,343 @@
+[
+  {
+    "path": "proprietary/vendor/lib/libacdk.so",
+    "replace_needed": {
+      "vendor.mediatek.hardware.camera.device@1.1.so": "vendor.mediatek.hardware.camera.device@1.1_vendor.so"
+    },
+    "original_sha256": "c4dec529bae48d9f011e63a3090a84d3b9d256475009b5bcf07ca81398bbf153",
+    "patched_sha256": "bcc5961a6bbea7dc5158e6c257875d1fbcd7503e10d2bd46d56624753d210456",
+    "add_needed": [
+      "libcappu_memory_heap_base_compat.so"
+    ]
+  },
+  {
+    "path": "proprietary/vendor/lib/libperfservice.so",
+    "replace_needed": {
+      "vendor.mediatek.hardware.dfps@1.0.so": "vendor.mediatek.hardware.dfps@1.0_vendor.so"
+    },
+    "original_sha256": "5a41cd3588e98a2dbc825ee2cad8a418f1348de14433fa84833b0eb186c5f130",
+    "patched_sha256": "f6d6c5c042b7304ae0194905d6b26c88877cb92985e323894dedb37d55a357d3"
+  },
+  {
+    "path": "proprietary/vendor/lib64/libacdk.so",
+    "replace_needed": {
+      "vendor.mediatek.hardware.camera.device@1.1.so": "vendor.mediatek.hardware.camera.device@1.1_vendor.so"
+    },
+    "original_sha256": "e3e30c3ee13effb5fde454709588d0fc4942d6b74d838fa2d80c3a1e203a2b26",
+    "patched_sha256": "61017ce0a9b9e9adf8dc6cdd4c94ff57970612b21336f0d60b1fdc13546acf26",
+    "add_needed": [
+      "libcappu_memory_heap_base_compat.so"
+    ]
+  },
+  {
+    "path": "proprietary/vendor/lib64/libperfservice.so",
+    "replace_needed": {
+      "vendor.mediatek.hardware.dfps@1.0.so": "vendor.mediatek.hardware.dfps@1.0_vendor.so"
+    },
+    "original_sha256": "7db321cbc554afb517c4a8663e79178e6a6f71e19735a35841925803707c7290",
+    "patched_sha256": "b2c2e7ea3f6913aff437f804b05ba5b7be06d570f90daa30b1a5703f93b1f226"
+  },
+  {
+    "path": "proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so",
+    "add_needed": [
+      "libcompiler_rt.so"
+    ],
+    "original_sha256": "e942af2f0577a76969e6a1d08563d6f346d8d0f9c8f3bd1a03c61601ed4e9d10",
+    "patched_sha256": "b198b8a9754e8643bfd3d4921f5b21fc022b99211d9ed12bbc88bb297bb7ec65"
+  },
+  {
+    "path": "proprietary/vendor/lib/libvp8enc_sa.ca7.so",
+    "add_needed": [
+      "libcompiler_rt.so"
+    ],
+    "original_sha256": "842ca68e58f3a162e8bb357c885657686724f9186945bc9a39365b9e2662d7cb",
+    "patched_sha256": "31c374f71ec1f4a6e531a22ddef5471ba2c8a8d42a4fae9f785c4d85ace51941"
+  },
+  {
+    "path": "proprietary/vendor/lib/libvp9dec_sa.ca7.so",
+    "add_needed": [
+      "libcompiler_rt.so"
+    ],
+    "original_sha256": "d314e6ec9987389bd1d343131c0009bb65d699880ae6b6e2be6b61ee8f2fac19",
+    "patched_sha256": "97293cd6769c9af2a1d7ea8f3dda2dcea20f505ff6b69efa8fc1cabbbac66c07"
+  },
+  {
+    "path": "proprietary/vendor/lib/libmp4enc_sa.ca7.so",
+    "add_needed": [
+      "libcompiler_rt.so"
+    ],
+    "original_sha256": "8e9752ec0ebbc32ac208919948012290b3371a3a08012f3196d3b4ea8c174f9d",
+    "patched_sha256": "ac3c1f02f7d9bf832bd87de5e99682c203911b1fe91f94c2e189ea99da2f6a0b"
+  },
+  {
+    "path": "proprietary/vendor/lib/libmp4enc_xa.ca7.so",
+    "add_needed": [
+      "libcompiler_rt.so"
+    ],
+    "original_sha256": "bc24ade40550128b44443851433eec466f290e02b289f6667399922447d4f290",
+    "patched_sha256": "0ab2779d94b9f7705e5017ed6e442834e346c715163a8f889c90bad911725128"
+  },
+  {
+    "path": "proprietary/vendor/lib/libvp8dec_sa.ca7.so",
+    "add_needed": [
+      "libcompiler_rt.so"
+    ],
+    "original_sha256": "08b43055ab43a6a865b9f83fef6fe123a035b9d48d16534bae517042ecb971c8",
+    "patched_sha256": "253b38ab66385a323c45632e9177e06c9dba436d8e1606f217392c8d3ea1c531"
+  },
+  {
+    "path": "proprietary/vendor/lib/libvc1dec_sa.ca7.so",
+    "add_needed": [
+      "libcompiler_rt.so"
+    ],
+    "original_sha256": "352fb12cbe24b5f04342850d2c8066d6a432e0f51e3a9fcc0e7bdaa580b6765b",
+    "patched_sha256": "6b5c6c566d7b7e47d610823aa888599f1f9c7f62d7cecad09901a1e5bb340b01"
+  },
+  {
+    "path": "proprietary/vendor/lib/libh264enc_sb.ca7.so",
+    "add_needed": [
+      "libcompiler_rt.so",
+      "libcappu_legacy_abi.so"
+    ],
+    "original_sha256": "e535d2f6f7ec20c58f38dde88c109a7942384c45bbd4def65e989f7dd79c32eb",
+    "patched_sha256": "37e5815725dc7ed0c6e93d013a488ff10e0217229e49db72d782d79d47ca6707"
+  },
+  {
+    "path": "proprietary/vendor/lib/libh264enc_sa.ca7.so",
+    "add_needed": [
+      "libcompiler_rt.so",
+      "libcappu_legacy_abi.so"
+    ],
+    "original_sha256": "0c833d36b2a8ae38473960963e7182545e989028141f5f1798c1823292023ece",
+    "patched_sha256": "2e87eb41282883ad71abd131ab62b8bbdb8bc503f8369e9e5e1ba256c1080e3a"
+  },
+  {
+    "path": "proprietary/vendor/lib/libblisrc_vendor.so",
+    "add_needed": [
+      "liblog.so"
+    ],
+    "original_sha256": "a0d90c1c17621242c95c682319b79da6e46dd143202826294941ed7ae74415ba",
+    "patched_sha256": "56f80569240df35791f44cba5a725b49cc3b6eb8edc2b4491ae70d4121c4716f"
+  },
+  {
+    "path": "proprietary/vendor/lib/libmtklimiter_vendor.so",
+    "add_needed": [
+      "liblog.so"
+    ],
+    "original_sha256": "9ce5abbe9572b89e505274ece35216e4cfe7a3b33d6fed6679fd283da445aa62",
+    "patched_sha256": "2c6c943bccfda6bc86d86dd355bc0e89d2b46735898172ac6fbcbfbf884921ec"
+  },
+  {
+    "path": "proprietary/vendor/lib/libbessound_hd_mtk_vendor.so",
+    "add_needed": [
+      "liblog.so"
+    ],
+    "original_sha256": "9ff80ad3318cf2e1605213c1e7808d9c1cea4b0720efeea0a94ffe372ce82816",
+    "patched_sha256": "321db5bc6dd32b28f665dbf2d4dc8c1f02b670bb3255f1c7b8d67149bf55d245"
+  },
+  {
+    "path": "proprietary/vendor/lib/libmtcloader.so",
+    "add_needed": [
+      "liblog.so"
+    ],
+    "original_sha256": "fb3e21a85a00fc61d7042de906f2744ae5b430fbbb6e746182b84248ac4523da",
+    "patched_sha256": "49744c3bf086d20b868f6f50c32a030e460a21b56eff85bcf036a867e92ad835"
+  },
+  {
+    "path": "proprietary/vendor/lib/libmtkshifter_vendor.so",
+    "add_needed": [
+      "liblog.so"
+    ],
+    "original_sha256": "0f30a3335d4cfd91ce1e9bc34f9639af1656508dbe22f7294fe4a1356a2edc02",
+    "patched_sha256": "9152a94e2d17cabb44bf8e3a788576a031a785bef14dfe6a31de353c50def728"
+  },
+  {
+    "path": "proprietary/vendor/lib/libcvsd_mtk.so",
+    "add_needed": [
+      "liblog.so"
+    ],
+    "original_sha256": "2b7452baa6a4cbd94580372f2e82f5053fec2a9871011b5f8194d67a2d1108c6",
+    "patched_sha256": "5e6d18b77fa1b39b761e2bf9837cf4970d08103ca96e09d0afe2a3a9e08c1bfa"
+  },
+  {
+    "path": "proprietary/vendor/lib/libmsbc_mtk.so",
+    "add_needed": [
+      "liblog.so"
+    ],
+    "original_sha256": "7f91221f7a247bb9db46646a2ae376da3fe3a0ca8f9b408c76e109fccbf75a69",
+    "patched_sha256": "19d21cd538712b09ddf135f5c6f4f7f9a9fb6db2e7d5ca536c95cb90b3f8c7fe"
+  },
+  {
+    "path": "proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl-mediatek.so",
+    "add_needed": [
+      "android.hardware.audio.common-util.so"
+    ],
+    "original_sha256": "d98d4ff1867fdb8ccd10968449d9ae5a0db3257e36f1aaddaef30a8fa33fd948",
+    "patched_sha256": "ef2508f16288397eb92a88e9cc1b031f589f6e4258988faa101f860245e4fb39"
+  },
+  {
+    "path": "proprietary/vendor/lib64/libblisrc_vendor.so",
+    "add_needed": [
+      "liblog.so"
+    ],
+    "original_sha256": "ed1e68e9d13b2a452de65f6a32869085e71706765b2d719771a192df331d6dbd",
+    "patched_sha256": "28804efe8de52ad239e341dd85c1e5969f392469bfd32ab306a06f5b23fa462d"
+  },
+  {
+    "path": "proprietary/vendor/lib64/libmtklimiter_vendor.so",
+    "add_needed": [
+      "liblog.so"
+    ],
+    "original_sha256": "85ad77e573bce2d6491df9d7f205022564af61dd9c531d51858374ce49af22bb",
+    "patched_sha256": "b2847025baf5b7be6245a121e99f2856c158e99609b063d72027b2dd4153974a"
+  },
+  {
+    "path": "proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so",
+    "add_needed": [
+      "liblog.so"
+    ],
+    "original_sha256": "ce77d231b66a300ec21d0b535d6724151f1222592301b080866ba13e3e0b1dd0",
+    "patched_sha256": "0566fd9d1b9029e2500afb6eba93e459e144e82d8748150c41365bd8f5826818"
+  },
+  {
+    "path": "proprietary/vendor/lib64/libmtkshifter_vendor.so",
+    "add_needed": [
+      "liblog.so"
+    ],
+    "original_sha256": "27502201a07e94841eaf81f3643fde00345a1c8708a7b0e3dd9a648c3a99a7a8",
+    "patched_sha256": "c7cb6275a2707d2c99556051aa546e83d4b307f1c0ef7a725c2c78ef8c7afc24"
+  },
+  {
+    "path": "proprietary/vendor/lib64/libcvsd_mtk.so",
+    "add_needed": [
+      "liblog.so"
+    ],
+    "original_sha256": "f76ea7bda1748f92d7ea835797d7ac8b32e0b272b2c1d95f03ca4ae395157e3a",
+    "patched_sha256": "980c009fd4bad9f05961b92cd7a54456f27293934e9623b12ba36fc251695847"
+  },
+  {
+    "path": "proprietary/vendor/lib64/libmsbc_mtk.so",
+    "add_needed": [
+      "liblog.so"
+    ],
+    "original_sha256": "9510693f894e9f8f86a0e5793cfde03fb709d0a8230ca2c0aa63c435447fd136",
+    "patched_sha256": "0db934c79ee0ee0ac29a4f60b6233fcc9f208c671b1d14a59868887dab302d0e"
+  },
+  {
+    "path": "proprietary/vendor/lib64/hw/android.hardware.audio@2.0-impl-mediatek.so",
+    "add_needed": [
+      "android.hardware.audio.common-util.so"
+    ],
+    "original_sha256": "b72bfcbb028865e6e05700fddf02f0462a6e0205d941d293c9ed59f9f0f080ae",
+    "patched_sha256": "48ab3989f4b1506e38b7c113610570d91dc68111579d22668959c0055c13602a"
+  },
+  {
+    "path": "proprietary/vendor/lib/libMtkOmxVenc.so",
+    "add_needed": [
+      "libcappu_legacy_abi.so",
+      "libcappu_graphics_compat.so"
+    ],
+    "original_sha256": "aee5c4e46f16da0ea7cd2a702bb33f03c7c17fb408e8436ea285c036c495e690",
+    "patched_sha256": "4b9059210d77be12173e32a58ac7fdf336f317bf6d41745ed8dd29e2a501395f"
+  },
+  {
+    "path": "proprietary/vendor/lib/libMtkOmxVdecEx.so",
+    "add_needed": [
+      "libcappu_legacy_abi.so",
+      "libcappu_graphics_compat.so"
+    ],
+    "remove_dynsym_version": [
+      "__pthread_gettid"
+    ],
+    "original_sha256": "fdc7403c2115662ccdae59af473487c260eff35b7bb67d90f3fa90947e52da1d",
+    "patched_sha256": "cc00d8f5ae678be55b7370f3d4f00d76da97709620b317ad4a96a68c1c78d698"
+  },
+  {
+    "path": "proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so",
+    "add_needed": [
+      "libcappu_hidl_compat.so"
+    ],
+    "original_sha256": "5a4178e0464d8938a6fc26cfa6ee9350b9530e6a4d57ea949c06702b5f6d2f6c",
+    "patched_sha256": "2ca1b682e45ab3df9cf29fc4162e9357d488f7fd90db96733c10f430080337c0"
+  },
+  {
+    "path": "proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so",
+    "add_needed": [
+      "libcappu_hidl_compat.so"
+    ],
+    "original_sha256": "0f0805b56743fdb6a53149b785f613b5c6ac801c716580f7fc1a29238d5137ff",
+    "patched_sha256": "49b78041a3f48cc9c1df0097d382781a96a4775ca79ad053a9d1b8b635ac3474"
+  },
+  {
+    "path": "proprietary/vendor/lib/libcam.client.so",
+    "add_needed": [
+      "libcappu_graphics_compat.so"
+    ],
+    "original_sha256": "4ba70650c996308f1b4650f8db6941c16b582395d2e8ad177ee0796d09a7806e",
+    "patched_sha256": "5066d526695e39fd29ce156c3b1580a3f58209dac83dc0f7bd2fdc8fa219fe39"
+  },
+  {
+    "path": "proprietary/vendor/lib64/libcam.client.so",
+    "add_needed": [
+      "libcappu_graphics_compat.so"
+    ],
+    "original_sha256": "e3b842d75376958aff1d4e7c3f4e83234c27af49a701eb5255abf4d9156f311c",
+    "patched_sha256": "b0ffa5a0716c8a3104255777b03f3d8d4428f8ed5d1d8c290e9be3a6e89c2469"
+  },
+  {
+    "path": "proprietary/vendor/lib/libwvhidl.so",
+    "original_sha256": "b7a9985136621a930a6a8814add3f35e7566b30f8158c8faefe9bdad22595965",
+    "patched_sha256": "01d4a791302a5861fa5397eb48510ff0b75fc3e9ac21c6c4e77482c9d6f5ce1c",
+    "replace_needed": {
+      "libprotobuf-cpp-lite.so": "libprotobuf-cpp-lite-cappu-legacy.so"
+    }
+  },
+  {
+    "path": "proprietary/vendor/lib64/libwvhidl.so",
+    "original_sha256": "c5609cdf77d47fca15c9e387952086d54dd69bd554dcd9d46398d72f293ba6b8",
+    "patched_sha256": "5280f374d475d953e485ad8cf4b12c3395c60713a42d672ad89b9bc47355d5a1",
+    "replace_needed": {
+      "libprotobuf-cpp-lite.so": "libprotobuf-cpp-lite-cappu-legacy.so"
+    }
+  },
+  {
+    "path": "proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine",
+    "add_needed": [
+      "libhidlbase.so"
+    ],
+    "original_sha256": "ab7b39a58b881f526f8943fa595fc377440c805c2954e6dd9f8842c4bc408fd2",
+    "patched_sha256": "5eefc73b04b98209cf239ddd8990470dc1a744037fc17ce5edaef5b01fd35702"
+  },
+  {
+    "path": "proprietary/vendor/lib/libcam.camadapter.so",
+    "remove_needed": [
+      "libskia.so"
+    ],
+    "original_sha256": "ebb0d55bd0711d02c091675117ed6cf3c4be92a92186e802912d129eef48fc22",
+    "patched_sha256": "e6a07ce2296f7b7eb2495ac14c5a699d4d8ac5c5771876816be6ed08eaefc01e"
+  },
+  {
+    "path": "proprietary/vendor/lib64/libcam.camadapter.so",
+    "remove_needed": [
+      "libskia.so"
+    ],
+    "original_sha256": "2fa1d65b3d4eeef01f7915a409c55acf6a6f22891b32a9ec9ca7593b87fec3b6",
+    "patched_sha256": "002c93af2e418e88cd93d4ac5bf9dded11c24054954bb3e9d8b952b754a6fd0b"
+  },
+  {
+    "path": "proprietary/vendor/lib/mediadrm/libwvdrmengine.so",
+    "original_sha256": "43324d5d08a10ff60d47bda0d127691447da7aac82a807a05dcf4ae4347fbaea",
+    "patched_sha256": "0e5603982511e0b570784430d61c720b2edd68b1cb4e521adfce1ea4e0a0acaa",
+    "replace_needed": {
+      "libprotobuf-cpp-lite.so": "libprotobuf-cpp-lite-cappu-legacy.so"
+    }
+  },
+  {
+    "path": "proprietary/vendor/lib64/mediadrm/libwvdrmengine.so",
+    "original_sha256": "1125355ac3c4d7224e4ffe6eb3ef0247fbf4d6bc808cba31a96bf62bc6c3644a",
+    "patched_sha256": "d4252573bb4480a456b33f74fab904a90c90b59fa2e7e7cb5026e8d3b638e87d",
+    "replace_needed": {
+      "libprotobuf-cpp-lite.so": "libprotobuf-cpp-lite-cappu-legacy.so"
+    }
+  }
+]

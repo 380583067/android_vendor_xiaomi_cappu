@@ -1,0 +1,1488 @@
+[
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/autobt",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/autobt"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/gsm0710muxd",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/hw/android.hardware.audio@2.0-service-mediatek",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@2.0-service-mediatek"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/hw/camerahalserver",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/hw/rilproxy",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/hw/rilproxy"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/hw/vendor.mediatek.hardware.power@1.1-service",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.power@1.1-service"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.0-service",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.0-service"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/kph",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/kph"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/lbs_hidl_service",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/lbs_hidl_service"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/md_ctrl",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/md_ctrl"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/mtkcam-debug",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/mtkcam-debug"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/mtkrild",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/mtkrild"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/muxreport",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/muxreport"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/netdagent",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/netdagent"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/netdc",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/netdc"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/nvram_agent_binder",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/nvram_agent_binder"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/nvram_daemon",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/pld",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/pld"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/resize2fs",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/resize2fs"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/rs2spir",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/rs2spir"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/spir2cl",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/spir2cl"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/stp_dump3",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/stp_dump3"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/thermal",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/thermal"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/thermal_manager",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/bin/wifi2agps",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/bin/wifi2agps"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/egl/libEGL_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/egl/libGLESv1_CM_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/egl/libGLESv2_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl-mediatek.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl-mediatek.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/hw/audio.primary.mt8173.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt8173.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/hw/gralloc.mt8173.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt8173.so",
+    "symlinks": [
+      "gralloc.mt8173.img.so"
+    ]
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/hw/hwcomposer.mt8173.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.mt8173.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/hw/memtrack.mt8173.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt8173.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/hw/power.mt8173.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt8173.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.0-impl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.0-impl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/hw/vendor.mediatek.hardware.power@1.1-impl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.power@1.1-impl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.0-impl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.0-impl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/hw/vulkan.mt8173.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mt8173.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/lbs_hidl_service-impl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/lbs_hidl_service-impl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/lib3a.log.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.log.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/lib3a.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/lib3a_sample.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/lib3a_sample.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libBnMtkCodec.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libBnMtkCodec.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libClearMotionFW.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libClearMotionFW.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libIMGegl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libIMGegl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libJpgDecPipe.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libJpgDecPipe.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libJpgEncPipe.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libMtkOmxCore.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxCore.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libMtkOmxMp3Dec.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libMtkOmxVdecEx.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVdecEx.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libMtkOmxVenc.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxVenc.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libOpenCL.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libPQDCjni.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libPQDCjni.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libPQjni.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libPQjni.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libPVROCL.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libPVROCL.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libPVRScopeServices.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libPVRScopeServices.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libRSDriver_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libSwJpgCodec.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libSwJpgCodec.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libacdk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libacdk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libaedv.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libaudiocomponentengine_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocomponentengine_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libaudiocustparam_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocustparam_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libaudiodcrflt_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libaudiodcrflt_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libaudioprimarydevicehalifclient.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libaudioprimarydevicehalifclient.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libaudiosetting.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libaudiosetting.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libaudiotoolkit_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libblisrc32_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libblisrc_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libbwc.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.camadapter.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.camadapter.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.camnode.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.camnode.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.camshot.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.camshot.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.client.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.client.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.device1.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.device1.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.exif.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.exif.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.exif.v3.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.exif.v3.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.hal3a.v3.dng.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.dng.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.hal3a.v3.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.halsensor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.iopipe.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.iopipe.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.metadataprovider.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.metadataprovider.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.paramsmgr.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.paramsmgr.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.utils.cpuctrl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.cpuctrl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.utils.sensorlistener.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.sensorlistener.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam.utils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam1_utils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam1_utils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam3_hwnode.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam3_hwnode.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam3_hwpipeline.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam3_hwpipeline.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam3_pipeline.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam3_pipeline.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam3_utils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam3_utils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam_hwutils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam_hwutils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam_mmp.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam_mmp.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam_platform.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam_platform.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcam_utils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcam_utils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcamalgo.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcamdrv.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libccap.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libccap.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libccci_util.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcustom_nvram.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcvsd_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libdirect-coredump.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libdirect-coredump.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libdngop.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libdngop.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libdpframework.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libfeatureio.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libfeatureio.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libfeatureiodrv.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libfeatureiodrv.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libfile_op.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libfpspolicy.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libfpspolicy.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libged.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libged.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libglslcompiler.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libglslcompiler.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libgpu_aux.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libgralloc_extra.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_extra.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libh264enc_sa.ca7.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libh264enc_sa.ca7.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libh264enc_sb.ca7.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libh264enc_sb.ca7.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libhwm.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libhwm.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libifcutils_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libifcutils_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libimageio.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libimageio.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libimageio_plat_drv.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_drv.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libion_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libion_ulit.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libkphhelper.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libkphhelper.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libkphproxy.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libkphproxy.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libksensor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libksensor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libm4u.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libm4u.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmemtrack_GL.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmemtrack_GL.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmhalImageCodec.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmhalImageCodec.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmmprofile.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmp4enc_sa.ca7.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmp4enc_xa.ca7.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmrdumpv.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmrdumpv.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmsbc_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmtcloader.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmtk_drvb.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_drvb.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmtkcam_debugutils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_debugutils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmtkcam_device1.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_device1.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmtkcam_device3.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_device3.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmtkcam_device3_app.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_device3_app.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmtkcam_fwkutils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_fwkutils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmtkcam_grallocutils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_grallocutils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmtkcam_imgbuf.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_imgbuf.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmtkcam_metadata.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_metadata.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmtkcam_stdutils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_stdutils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmtkjpeg.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmtkjpeg.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmtklimiter_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libmtkshifter_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libn3d3a.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libn3d3a.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libnativecheck-jni.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libnativecheck-jni.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libnvram.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libnvram_daemon_callback.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_daemon_callback.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libnvram_platform.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_platform.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libnvram_sec.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libnvramagentclient.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libnvramagentclient.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libperfctl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libperfframeinfo_jni.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libperfframeinfo_jni.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libperfservice.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libperfservice.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libperfservicenative.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libperfservicenative.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libpl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libpl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libpowerhalwrap.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhalwrap.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libpq_cust.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libpq_prot.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libpq_prot.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libratconfig.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libratconfig.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/librilmtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/librilmtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/librilproxy.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/librilproxy.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/librilproxyutils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/librilproxyutils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/librilutilsmtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/librilutilsmtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/librrc.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/librrc.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libspeech_enh_lib.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libsrv_um.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libsrv_um.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libstagefrighthw.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libsysenv.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libudf.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libufwriter.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libufwriter.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libui_ext.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libui_ext.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libusc.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libusc.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libvc1dec_sa.ca7.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libvc1dec_sa.ca7.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libvcodec_oal.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_oal.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libvcodec_utility.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libvcodecdrv.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libvp8dec_sa.ca7.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libvp8enc_sa.ca7.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libvp8enc_sa.ca7.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libvp9dec_sa.ca7.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libvp9dec_sa.ca7.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libvt_custom.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libwvhidl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/mediadrm/libwvdrmengine.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/mtk-ril.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/mtk-ril.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/mtk-rilproxy.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/mtk-rilproxy.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/vendor.mediatek.hardware.audio@2.1_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@2.1_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/vendor.mediatek.hardware.camera.ccap@1.0_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.ccap@1.0_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/vendor.mediatek.hardware.camera.device@1.1_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.device@1.1_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/vendor.mediatek.hardware.dfps@1.0_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.dfps@1.0_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/vendor.mediatek.hardware.lbs@1.0_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.lbs@1.0_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkcodecservice@1.1_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/vendor.mediatek.hardware.power@1.1_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@1.1_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/vendor.mediatek.hardware.radio@2.0_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio@2.0_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/egl/libEGL_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/egl/libGLESv1_CM_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/egl/libGLESv2_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/android.hardware.audio@2.0-impl-mediatek.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@2.0-impl-mediatek.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/audio.primary.mt8173.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt8173.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/gralloc.mt8173.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.mt8173.so",
+    "symlinks": [
+      "gralloc.mt8173.img.so"
+    ]
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/hwcomposer.mt8173.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt8173.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/memtrack.mt8173.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.mt8173.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/power.mt8173.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.mt8173.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.0-impl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.0-impl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.power@1.1-impl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.power@1.1-impl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.0-impl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.0-impl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/vulkan.mt8173.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.mt8173.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/lbs_hidl_service-impl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/lib3a.log.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.log.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/lib3a.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/lib3a_sample.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a_sample.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libBnMtkCodec.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libBnMtkCodec.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libIMGegl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libIMGegl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libJpgDecPipe.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgDecPipe.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libJpgEncPipe.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libMtkOmxCore.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkOmxCore.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libOpenCL.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libPQDCjni.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libPQDCjni.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libPQjni.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libPQjni.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libPVROCL.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libPVROCL.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libPVRScopeServices.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libPVRScopeServices.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libRSDriver_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libSwJpgCodec.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libSwJpgCodec.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libacdk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libacdk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libaedv.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libaudiocompensationfilter_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocompensationfilter_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libaudiocomponentengine_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocomponentengine_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libaudiocustparam_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocustparam_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libaudiodcrflt_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiodcrflt_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libaudioprimarydevicehalifclient.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioprimarydevicehalifclient.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libaudiosetting.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiosetting.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libaudiotoolkit_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiotoolkit_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libbessound_hd_mtk_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libblisrc32_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libblisrc32_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libblisrc_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libblisrc_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libbwc.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libbwc.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.camadapter.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.camadapter.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.camnode.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.camnode.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.camshot.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.camshot.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.client.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.client.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.device1.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.device1.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.exif.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.exif.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.exif.v3.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.exif.v3.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.hal3a.v3.dng.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.dng.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.hal3a.v3.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.halsensor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.halsensor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.iopipe.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.iopipe.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.metadataprovider.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.metadataprovider.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.paramsmgr.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.paramsmgr.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.utils.cpuctrl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.utils.cpuctrl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.utils.sensorlistener.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.utils.sensorlistener.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam.utils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.utils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam1_utils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam1_utils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam3_hwnode.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam3_hwnode.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam3_hwpipeline.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam3_hwpipeline.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam3_pipeline.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam3_pipeline.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam3_utils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam3_utils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam_hwutils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam_hwutils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam_mmp.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam_mmp.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam_platform.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam_platform.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcam_utils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcam_utils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcamalgo.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcamdrv.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libccap.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libccap.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libccci_util.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcustom_nvram.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcvsd_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libdirect-coredump.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libdirect-coredump.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libdngop.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libdngop.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libdpframework.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libdpframework.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libfeatureio.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libfeatureio.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libfeatureiodrv.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libfeatureiodrv.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libfile_op.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libforkexecwrap.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libfpspolicy.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libfpspolicy.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libged.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libged.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libgf_ca.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libgf_hal.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libglslcompiler.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libglslcompiler.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixfingerprintd_binder.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libgpu_aux.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_aux.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libgralloc_extra.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_extra.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libhwm.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libifcutils_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libifcutils_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libimageio.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libimageio_plat_drv.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio_plat_drv.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libion_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libion_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libion_ulit.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libion_ulit.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libkphhelper.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libkphhelper.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libkphproxy.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libkphproxy.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libksensor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libksensor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libm4u.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libm4u.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmemtrack_GL.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmemtrack_GL.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmhalImageCodec.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmhalImageCodec.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmmprofile.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmmprofile.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmrdumpv.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmrdumpv.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmsbc_mtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmsbc_mtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmtk_drvb.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk_drvb.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmtkcam_debugutils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_debugutils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmtkcam_device1.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_device1.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmtkcam_device3.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_device3.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmtkcam_device3_app.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_device3_app.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmtkcam_fwkutils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_fwkutils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmtkcam_grallocutils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_grallocutils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmtkcam_imgbuf.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_imgbuf.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmtkcam_metadata.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_metadata.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmtkcam_stdutils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_stdutils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmtkjpeg.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkjpeg.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmtklimiter_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmtklimiter_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libmtkshifter_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkshifter_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libn3d3a.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libn3d3a.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libnativecheck-jni.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libnativecheck-jni.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libnvram.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libnvram_daemon_callback.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_daemon_callback.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libnvram_platform.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_platform.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libnvram_sec.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libnvramagentclient.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libnvramagentclient.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libperfctl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libperfframeinfo_jni.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libperfframeinfo_jni.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libperfservice.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libperfservice.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libperfservicenative.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libperfservicenative.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libpl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libpl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libpowerhalwrap.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhalwrap.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libpq_cust.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libpq_prot.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_prot.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libratconfig.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/librilmtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/librilmtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/librilproxy.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/librilproxy.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/librilproxyutils.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/librilproxyutils.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/librilutilsmtk.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/librilutilsmtk.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libspeech_enh_lib.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libsrv_um.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libsrv_um.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libstagefrighthw.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libsysenv.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libudf.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libufwriter.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libufwriter.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libui_ext.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libui_ext.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libusc.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libusc.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libvcodec_utility.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodec_utility.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libwvhidl.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/mtk-ril.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/mtk-ril.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/mtk-rilproxy.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/mtk-rilproxy.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@2.1_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@2.1_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.ccap@1.0_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.ccap@1.0_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.device@1.1_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.device@1.1_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/vendor.mediatek.hardware.dfps@1.0_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dfps@1.0_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/vendor.mediatek.hardware.lbs@1.0_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.lbs@1.0_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/vendor.mediatek.hardware.netdagent@1.0_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.netdagent@1.0_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.0_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.0_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/vendor.mediatek.hardware.power@1.1_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@1.1_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.0_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.0_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/vendor.mediatek.hardware.radio@2.0_vendor.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio@2.0_vendor.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib/libcameracustom.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.so"
+  },
+  {
+    "src": "vendor/xiaomi/cappu/proprietary/vendor/lib64/libcameracustom.so",
+    "dst": "$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.so"
+  }
+]
